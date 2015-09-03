@@ -1,3 +1,5 @@
+package TraitsAndTypeConversions.71
+
 /**
  * 混入trait的数量是任意的。用关键字with可以混入更多的trait
  */

@@ -1,3 +1,5 @@
+package TraitsAndTypeConversions.71
+
 /**
  * Trait像一个拥有部分实现的接口，trait里定义和初始化的val和var会在
  * 混入trait的类的内部得到实现。定义过而未初始化的val和var则认为是抽象的，

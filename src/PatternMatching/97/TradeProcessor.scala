@@ -3,8 +3,8 @@
 */
 abstract case class Trade()
 case class Sell(stockmbol: String,quantity: Int) extends Trade
-case class Buy(stockSymbol:String,quantity:Int) extends Trade
-case class Hedge(stockSymbol:String,quantity:Int) extends Trade
+case class Buy(stockSymbol: String,quantity: Int) extends Trade
+//case class Hedge(stockSymbol: String,quantity: Int) extends Trade
 
 class TradeProcessor {
   def processTransaction(request: Trade) {

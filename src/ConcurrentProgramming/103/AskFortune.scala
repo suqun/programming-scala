@@ -6,7 +6,6 @@ import Actor._
  * 在接收消息的目标actor给出响应前，会一直阻塞，会引起潜在的死锁。
  * 如果要用这个方法，需要使用超时参数
  */
-
 val fortuneTeller = actor {
   for(i <- 1 to 4) {
     Thread.sleep(1000)

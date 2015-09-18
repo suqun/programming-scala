@@ -2,7 +2,7 @@
  * Created by larry on 9/17/15.
  * receive 和 receiveWithin
  * receive 接收一个函数值/闭包，返回一个处理消息的应答
- *
+ * receive会造成程序阻塞，直到实际接收到应答为止
  */
 
 import scala.actors.Actor._
